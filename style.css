@@ -276,8 +276,8 @@ section .top_site_inner .title_name span{
     section .top_site_list{
         list-style: none;
         padding: 0;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
 display: grid;
     }
     section .top_site_inner{
@@ -289,7 +289,7 @@ display: grid;
         height: 35px;
         overflow: hidden;
         position: relative;
-        display: grid;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -305,7 +305,7 @@ display: grid;
     }
     .activites{
         padding: 0 0 !important;
-        margin: 0;
+        margin: 1rem 0;
     }
     .activites h2{
         font-size: 40px;
@@ -319,7 +319,7 @@ display: grid;
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-bottom:. 5rem;
+        margin-bottom:.5rem;
         padding: 3px 1rem;
         margin-left: 5px;
     }
