@@ -257,10 +257,10 @@ section .top_site_inner .title_name span{
     color: #2B2A33;
     transition: 0.3s;
 }
-@media(max-width: 380px){
+@media(max-width: 450px){
     
     .search_inner_wrap{
-        width: 80%;
+        width: 90%;
        
     }
     .search_inner_wrap input[type="search"]{
@@ -318,7 +318,7 @@ section .top_site_inner .title_name span{
         align-items: center;
         margin-bottom: 1rem;
         padding: 3px 1rem;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .activity_inner{
         position: relative;
@@ -327,7 +327,7 @@ section .top_site_inner .title_name span{
         background: #fff;
         border-radius: 5px;
         border: 1px solid transparent;
-        margin: 1rem 0;
+        margin:.3rem 0;
         box-shadow: 0 3px 8px #8a8686, 0 0 2px #929294;
       }
       .activity_inner iframe{
