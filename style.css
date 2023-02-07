@@ -48,7 +48,6 @@ body{
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
-    margin-inline-start: 15px;
 }
 .search_inner_wrap{
     position: relative;
@@ -90,6 +89,7 @@ section .top_site_list{
     padding: 0;
     margin-left: 15rem;
     margin-right: 10rem;
+    display:grid;
 }
 section .top_site_list .top_site_outer{
     display: inline-block;
