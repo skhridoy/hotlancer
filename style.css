@@ -17,7 +17,6 @@ a{
     text-decoration: none;
 }
 body{
-    display: flex;
     /* background-image: url(src/bg-1.jpg); */
     flex-direction: column;
     min-height: 100vh;
@@ -282,7 +281,7 @@ section .top_site_inner .title_name span{
 display: grid;
     }
     section .top_site_inner{
-        display: block !important;
+        display: grid;
     }
     .title .icon{
         border-radius: 4px;
@@ -290,15 +289,15 @@ display: grid;
         height: 35px;
         overflow: hidden;
         position: relative;
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
     }
     section .top_site_inner a .title{
         display: flex;
         position: relative;
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
     section .top_site_inner .title_name{
         font-size: 10px;
@@ -311,7 +310,7 @@ display: grid;
     .activites h2{
         font-size: 40px;
         padding: 5px 10px;
-        margin-left: 20px;
+        margin-left: 10px;
         color: #fff;
     }
     .recent_activity{
