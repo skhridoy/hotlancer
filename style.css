@@ -275,13 +275,14 @@ section .top_site_inner .title_name span{
     }
     section .top_site_list{
         list-style: none;
-        padding: 10px;
+        padding: 0;
         margin-left: 1rem;
         margin-right: 1rem;
 display: grid;
     }
     section .top_site_inner{
         display: block !important;
+padding: 10px;
     }
     .title .icon{
         border-radius: 4px;
@@ -310,7 +311,7 @@ display: grid;
     .activites h2{
         font-size: 40px;
         padding: 5px 10px;
-        margin-left: 30px;
+        margin-left: 20px;
         color: #fff;
     }
     .recent_activity{
@@ -330,7 +331,7 @@ display: grid;
         background: #fff;
         border-radius: 5px;
         border: 1px solid transparent;
-        margin:.1rem 0;
+        margin:0;
         box-shadow: 0 3px 8px #8a8686, 0 0 2px #929294;
       }
       .activity_inner iframe{
@@ -340,7 +341,7 @@ display: grid;
         border-top-right-radius: 8px;
       }
     .recent_activity_outer{
-        padding: 6px 0;
+        padding: 3px 0;
     }
     .activity_inner .activity_desc .title{
         font-size: 18px;
