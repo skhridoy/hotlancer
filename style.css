@@ -278,6 +278,12 @@ section .top_site_inner .title_name span{
         margin-left: 1rem;
         margin-right: 1rem;
     }
+section .top_site_list .top_site_outer{
+    display: inline-block;
+    height: 100%;
+    border-radius: 8px;
+    padding: 0;
+}
     section .top_site_inner{
         display: block !important;
     }
