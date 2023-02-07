@@ -275,7 +275,7 @@ section .top_site_inner .title_name span{
     }
     section .top_site_list{
         list-style: none;
-        padding: 0;
+        padding: 10px;
         margin-left: 1rem;
         margin-right: 1rem;
 display: grid;
@@ -319,7 +319,7 @@ display: grid;
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-bottom: 1rem;
+        margin-bottom:. 5rem;
         padding: 3px 1rem;
         margin-left: 5px;
     }
@@ -330,7 +330,7 @@ display: grid;
         background: #fff;
         border-radius: 5px;
         border: 1px solid transparent;
-        margin:.3rem 0;
+        margin:.1rem 0;
         box-shadow: 0 3px 8px #8a8686, 0 0 2px #929294;
       }
       .activity_inner iframe{
@@ -340,7 +340,7 @@ display: grid;
         border-top-right-radius: 8px;
       }
     .recent_activity_outer{
-        padding: 10px 0;
+        padding: 6px 0;
     }
     .activity_inner .activity_desc .title{
         font-size: 18px;
@@ -373,7 +373,7 @@ display: grid;
         padding: 0 10px;
     }
     .footer .download .dwnld{
-        width: 78%;
+        width: 80%;
         font-size: 20px;
     }
 }
