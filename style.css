@@ -257,7 +257,7 @@ section .top_site_inner .title_name span{
     color: #2B2A33;
     transition: 0.3s;
 }
-@media(max-width: 450px){
+@media(max-width: 400px){
     
     .search_inner_wrap{
         width: 90%;
@@ -277,6 +277,7 @@ section .top_site_inner .title_name span{
         padding: 0;
         margin-left: 1rem;
         margin-right: 1rem;
+display: grid;
     }
 section .top_site_list .top_site_outer{
     display: inline-block;
